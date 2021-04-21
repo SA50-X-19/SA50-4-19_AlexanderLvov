@@ -61,6 +61,8 @@
       <workItem from="1617775668882" duration="2368000" />
       <workItem from="1617959242877" duration="1324000" />
       <workItem from="1618225277595" duration="4149000" />
+      <workItem from="1618997949832" duration="23000" />
+      <workItem from="1618997973938" duration="57000" />
       <workItem from="1618997217738" duration="34000" />
       <workItem from="1618997252439" duration="14000" />
       <workItem from="1618997266863" duration="100000" />
@@ -83,6 +85,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618997971475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618997971475" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618997264826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
