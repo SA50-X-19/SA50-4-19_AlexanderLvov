@@ -13,6 +13,7 @@ body {
 
 .header {
     display: flex;
+    padding-top: 40px;
     padding-top: 20px;
     justify-content: space-between;
     max-width: 1200px;
@@ -216,4 +217,175 @@ body {
 .survival__r {
     max-width: 1200px;
     width: 100%;
+}
+
+/* Last articles */
+
+.last__articles {
+    display: flex;
+    background: #CCCCCC;
+    width: 1440px;
+    height: 1368px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1__last__articles {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+
+.h2__last__articles {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 120px;
+}
+
+.pics__articles {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    height: 360px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.pics {
+    display: flex;
+    width: 1020px;
+    max-width: 100%;
+    height: 360px;
+    justify-content: space-between;
+}
+
+.deer {
+    background-image: url(./anim/pic1.jpg);
+}
+
+.pics > div {
+    display: flex;
+    width: 300px;
+    height: 360px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.squirrel {
+    background-image: url(./anim/pic2.jpg);
+    display: flex;
+    width: 300px;
+    height: 360px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bird {
+    background-image: url(./anim/pic3.jpg);
+    display: flex;
+    width: 300px;
+    height: 360px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text__h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.text__p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.vl,.vr {
+    transition: 1s;
+}
+
+.vl:hover {
+    transform: scale(1.2);
+}
+
+.vr:hover {
+    transform: scale(1.2);
+}
+
+.last__articles__bottom {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 239px;
+    margin-bottom: 59px;
+}
+
+.email__field {
+    width: 540px;
+    height: 60px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    padding-left: 15px;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #CD6326;
+    background: #CD6326;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 120px;
+    height: 64px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer */
+
+.footer {
+
 }
